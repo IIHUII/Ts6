@@ -86,15 +86,6 @@ const FILES_DATA = [
     downloads: "8",
     category: "خليفه",
   },
-   {
-    id: "khalefa3",
-    name: "3 خليفه" ,
-    type: "txt",
-    size: "189KB",
-    description: "سكربت خليفه البحث : خليفه",
-    downloads: "8",
-    category: "خليفه",
-  },
   {
     id: "khalefa4",
     name: "4 خليفه" ,
