@@ -104,6 +104,15 @@ const FILES_DATA = [
     downloads: "8",
     category: "خليفه",
   },
+   {
+    id: "TNT",
+    name: "TNT" ,
+    type: "txt",
+    size: "115KB",
+    description: "سكربت تي ان تي بالبحث : TNT",
+    downloads: "8",
+    category: "TNT",
+  },
 ];
 
 let currentScript = null;
