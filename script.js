@@ -50,7 +50,7 @@ const FILES_DATA = [
 
   },
  {
-    id: "zxe hub2",
+    id: "zex hub2.txt",
     name: " 2 غالي",
     type: "txt",
     size: "64KB",
