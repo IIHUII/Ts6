@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS7 THE BEST | فريق التطوير</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="scripts/iamges/file_0000000060f061f6810f1e909bb70473.png">
+
+</head>
+<body class="dark-theme">
+    <div class="theme-switcher">
+        <button class="theme-btn dark active" title="الوضع الليلي">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="theme-btn light" title="الوضع النهاري">
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div class="container">
+        <div class="hacker-mask">
+            <div class="hacker-text">جاري التحميل: TS7 THE BEST | فريق التطوير | تم التطوير بواسطة محمد (گرويڤ) بمساعدة سيف</div>
+        </div>
+
+        <header>
+            <h1>TS7 THE BEST</h1>
+
+        </header>
+
+
+        <div class="main-nav">
+            <button class="nav-btn active" data-section="home">الصفحة الرئيسية</button>
+            <button class="nav-btn" data-section="scripts">السكربتات</button>
+            <button class="nav-btn" data-section="about">فريقنا</button>
+            <button class="nav-btn" data-section="terms">شروط وأحكام</button>
+            <button class="nav-btn" data-section="support">الدعم الفني</button>
+        </div>
+
+
+        <section class="page-section active" id="home-section">
+            <div class="welcome-section">
+                <h2>مرحباً بكم في عالم البرمجة والهاكات</h2>
+                <p>
+                    موقعنا هو الوجهة الأولى لمطوري سكربتات روبلوكس، هاكات روبلكس، وأدوات التطوير المتقدمة.
+                    نقدم تشكيلة واسعة من السكربتات المسربة والأدوات الاحترافية التي تم تطويرها واختبارها بدقة.
+                    فريق TS7 يضمن لكم منتجات عالية الجودة مع تحديثات مستمرة ودعم فني متميز.
+                </p>
+
+                <div class="stats-card">
+                    <div>
+                        <div class="stats-number">12+</div>
+                        <div class="stats-label">سكربتات متاحة</div>
+                    </div>
+                    <div>
+                        <div class="stats-number">5,000+</div>
+                        <div class="stats-label">تحميل</div>
+                    </div>
+                    <div>
+                        <div class="stats-number">3</div>
+                        <div class="stats-label">مطورين</div>
+                    </div>
+                </div>
+
+                <div class="welcome-buttons">
+                    <button class="main-button" id="scripts-btn">
+                        <i class="fas fa-code"></i> تصفح السكربتات
+                    </button>
+                    <button class="main-button" id="about-btn">
+                        <i class="fas fa-users"></i> تعرف على المطورين
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="monthly-stats">
+                <h2 class="stats-title">إحصائيات الشهر الحالي</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>التحميلات</h3>
+                        <div class="counter" id="downloadsCounter">2143</div>
+                        <div class="label">تحميل هذا الشهر</div>
+                    </div>
+                    <div class="stat-item">
+                        <h3>المستخدمون</h3>
+                        <div class="counter" id="usersCounter">1847</div>
+                        <div class="label">مستخدم نشط</div>
+                    </div>
+                    <div class="stat-item">
+                        <h3>التحديثات</h3>
+                        <div class="counter" id="updatesCounter">7</div>
+                        <div class="label">تحديثات سكربتات</div>
+                    </div>
+                    <div class="stat-item">
+                        <h3>التقييم</h3>
+                        <div class="counter" id="ratingCounter">4.8</div>
+                        <div class="label">تقييم المستخدمين</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scripts Section -->
+        <section class="page-section" id="scripts-section">
+            <div class="section-header">
+                <h2 class="section-title">الـسـكـربـتـات الـمـسـربـة</h2>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="scriptSearch" placeholder="ابحث عن سكربت..." oninput="sanitizeInput(this)">
+                </div>
+            </div>
+
+
+            <div class="tabs-container">
+                <button class="tab-btn active" data-category="all">الكل</button>
+                <button class="tab-btn" data-category="سجاد">سجاد</button>
+                <button class="tab-btn" data-category="الفا">الفا</button>
+                <button class="tab-btn" data-category="غالي">غالي</button>
+                <button class="tab-btn" data-category="خليفه">خليفه</button>
+                <button class="tab-btn" data-category="TNT">TNT</button>
+            </div>
+
+            <div class="buttons-container" id="scriptsContainer">
+
+            </div>
+        </section>
+
+        <section class="page-section" id="about-section">
+            <h2>فريق التطوير TS7</h2>
+
+            <p>
+                فريقنا المكون من نخبة المطورين والمبرمجين، متخصص في تطوير سكربتات روبلوكس وهاكات روبلكس وأدوات التطوير المتقدمة.
+                نتميز بتقديم منتجات عالية الجودة مع تحديثات مستمرة ودعم فني مميز لضمان أفضل تجربة للمستخدم.
+            </p>
+
+            <div class="team-grid">
+
+                <div class="team-member boss">
+                    <div class="member-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>ترانكس (Boss)</h3>
+                    <div class="member-role">قائد الفريق والمطور الرئيسي</div>
+                    <div class="social-links">
+                        <a href="https://www.tiktok.com/@vr.pv" target="_blank" rel="noopener noreferrer" title="تيك توك">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" title="جيت هب">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="team-member">
+                    <div class="member-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>سيف</h3>
+                    <div class="member-role">مطور السكربتات واختبار الأمان</div>
+                    <div class="social-links">
+                        <a href="https://github.com/IIHUII" target="_blank" rel="noopener noreferrer" title="جيت هب">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@uooooo943" target="_blank" rel="noopener noreferrer" title="تيك توك">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="team-member">
+                    <div class="member-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>محمد (گرويڤ)</h3>
+                    <div class="member-role">مطور الواجهات ودعم المستخدمين</div>
+                    <div class="social-links">
+                         <a href="https://github.com/MS7top" target="_blank" rel="noopener noreferrer" title="جيت هب">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@._ol02" target="_blank" rel="noopener noreferrer" title="تيك توك">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="page-section" id="terms-section">
+            <h2>شروط وأحكام الاستخدام</h2>
+
+            <div class="terms-content">
+                <p>
+                    مرحبًا بكم في موقع TS7. يرجى قراءة شروط الاستخدام هذه بعناية قبل استخدام موقعنا.
+                    باستخدامك لهذا الموقع، فإنك توافق على الالتزام بهذه الشروط والأحكام بالكامل.
+                </p>
+
+                <h3>1. قبول الشروط</h3>
+                <p>
+                    عند الوصول إلى هذا الموقع واستخدامه، فإنك تقر وتوافق على أنك قد قرأت وفهمت ووافقت على الالتزام
+                    بهذه الشروط والأحكام وأي سياسات أو إرشادات أخرى قد ننشرها من وقت لآخر.
+                </p>
+
+                <h3>2. الاستخدام المسموح به</h3>
+                <p>
+                    يُسمح لك باستخدام موقعنا للأغراض الشخصية وغير التجارية فقط. لا يجوز لك:
+                </p>
+                <ul>
+                    <li>نسخ أو توزيع أو تعديل أي جزء من الموقع أو محتواه</li>
+                    <li>استخدام الموقع لأي غرض غير قانوني أو غير مصرح به</li>
+                    <li>محاولة اختراق أو تعطيل أي أنظمة أمنية مرتبطة بالموقع</li>
+                    <li>استخدام الموقع بطريقة قد تعطل أو تعيق أو تضعف أدائه</li>
+                </ul>
+
+                <h3>3. الملكية الفكرية</h3>
+                <p>
+                    جميع المحتويات الموجودة على هذا الموقع، بما في ذلك النصوص والرسومات والشعارات والصور والبرامج،
+                    هي ملك لـ TS7  ومحمية بموجب قوانين الملكية الفكرية.
+                </p>
+
+                <h3>4. المسؤولية</h3>
+                <p>
+                    لا يتحمل TS7 أي مسؤولية عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو تبعية
+                    تنشأ عن استخدامك أو عدم قدرتك على استخدام هذا الموقع.
+                </p>
+
+                <h3>5. التعديلات</h3>
+                <p>
+                    نحتفظ بالحق في تعديل هذه الشروط والأحكام في أي وقت دون إشعار مسبق.
+                    سيتم نشر أي تغييرات على هذه الصفحة، واستمرار استخدامك للموقع بعد أي تغييرات
+                    يشكل موافقتك على تلك التغييرات.
+                </p>
+            </div>
+        </section>
+
+        <section class="page-section" id="support-section">
+            <h2>الدعم الفني</h2>
+
+            <div class="discord-card">
+                <div class="discord-icon">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <h3>انضم إلى سيرفر الديسكورد الخاص بنا</h3>
+                <p>
+                    للحصول على دعم فني سريع ومباشر، انضم إلى مجتمعنا على Discord.
+                    هنا يمكنك طرح الأسئلة، الإبلاغ عن المشاكل، والتفاعل مع أعضاء فريق TS7 والمستخدمين الآخرين.
+                </p>
+                <p>
+                    سيرفرنا مجهز بقنوات متخصصة للدعم الفني، التحديثات، ومشاركة السكربتات.
+                </p>
+
+                <button class="discord-btn" id="discordBtn">
+                    <i class="fab fa-discord"></i> انضم إلى الديسكورد
+                </button>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-logo">
+                <i class="fas fa-crown"></i>
+            </div>
+            <p>TS7 THE BEST - فريق التطوير</p>
+
+            <div class="footer-social">
+                <a href="https://t.me/LOCALNOVA" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                <a href="https://x.com/s2r_o42141" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@Trunks-script" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                <a href="https://github.com/TS7-Dev1" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#" data-section="home">الصفحة الرئيسية</a>
+                <a href="#" data-section="scripts">السكربتات</a>
+                <a href="#" data-section="about">فريقنا</a>
+                <a href="#" data-section="terms">شروط وأحكام</a>
+                <a href="#" data-section="support">الدعم الفني</a>
+                <a href="#" data-section="contact">اتصل بنا</a>
+            </div>
+
+            <div class="copyright">
+                <p>جميع الحقوق محفوظة © 2023 | فريق TS7</p>
+                <p>تم التطوير بواسطة محمد (گرويڤ) بمساعدة سيف | TS7 THE BEST</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <div class="preview-modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">معاينة السكربت: <span id="scriptNamePreview"></span></div>
+                <button class="close-modal" onclick="closePreview()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <pre class="preview-content" id="scriptPreviewContent"></pre>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn btn-download" onclick="downloadCurrentScript()">
+                    <i class="fas fa-download"></i> تحميل السكربت
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="download-message" id="downloadMessage">
+        <i class="fas fa-check-circle"></i>
+        <span id="messageText">تم التحميل بنجاح!</span>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
+<!-- this the end of the code get  out bitch -->
