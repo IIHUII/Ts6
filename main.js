@@ -17,7 +17,7 @@
                 size: "87KB",
                 downloads: "6",
                 category: "سجاد",
-                path: "scripts/Dark hub 2.lua"
+                path: "scripts/Dark hub 2.txt"
             },
             {
                 id: "Dark hub 3",
@@ -411,3 +411,4 @@
             updateMonthlyStats();
             startStatsAnimation();
         });
+
